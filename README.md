@@ -15,8 +15,5 @@ Post example
 --------
 var res = requestHandler.doRequest(TypeOfRequest.Post, {id: $('#id').val(), name: $('#nameInput').val() }, '/Controller/SetName');
 
-Sync or async
-var res = requestHandler.doRequest(TypeOfRequest.Get, { id: $('#id').val() }, '/Controller/GetName'); 
-
 
 Feel free to make this plugin better.
