@@ -4,16 +4,12 @@ SimpleRequestHandler
 A simple request handler plugin in javascript. Requires jQuery.
 
 Post example
-===========
-var res = requestHandler.doRequest(TypeOfRequest.Post, // Post
-	{id: $('#id').val(), name: $('#nameInput').val() }, // Parameters
-	'/Controller/SetName'); // Action
+----
+var res = requestHandler.doRequest(TypeOfRequest.Post, {id: $('#id').val(), name: $('#nameInput').val() }, 		    	'/Controller/SetName');
 
 Get example
-===========
-var res = requestHandler.doRequest(TypeOfRequest.Get, // Get
-	{id: $('#id').val() }, // Parameters
-	'/Controller/GetName'); // Action
+----
+var res = requestHandler.doRequest(TypeOfRequest.Get, { id: $('#id').val() }, '/Controller/GetName'); 
 
 	
 Feel free to make this plugin better.
