@@ -15,5 +15,9 @@ Post example
 --------
 var res = requestHandler.doRequest(TypeOfRequest.Post, {id: $('#id').val(), name: $('#nameInput').val() }, '/Controller/SetName');
 
+
+
+      
+       
 ********
-Feel free to make this plugin better.
+_Feel free to make this plugin better._ 
