@@ -3,7 +3,7 @@ SimpleRequestHandler
 
 A simple request handler plugin in javascript. Requires jQuery.
 
-Function
+The Handler
 --------
 var result = requestHandler.doRequest(typeOfRequest, params, url, async, traditional);
 
