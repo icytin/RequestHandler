@@ -1,7 +1,7 @@
 SimpleRequestHandler
 ====================
 
-A simple request handler plugin in javascript. Requires jQuery.
+A simple ajax request handler plugin in javascript. Requires jQuery.
 
 The Handler
 --------
