@@ -8,13 +8,14 @@ The Handler
 
       var result = requestHandler.doRequest(typeOfRequest, params, url, async, traditional);
 
-Get example
+Example of use
 --------
+
+### Get example
 
       var res = requestHandler.doRequest(TypeOfRequest.Get, { id: $('#id').val() }, '/Controller/GetName');
 
-Post example
---------
+### Post example
 
       var res = requestHandler.doRequest(TypeOfRequest.Post, {id: $('#id').val(), name: $('#nameInput').val() }, 
             '/Controller/SetName');
