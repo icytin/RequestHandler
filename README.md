@@ -8,7 +8,7 @@ The Handler
 
       var result = requestHandler.get(params, url, async, traditional);
 	  
-	  and
+	  // and
 	  
 	  var result = requestHandler.post(params, url, async, traditional);
 
