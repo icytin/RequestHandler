@@ -6,18 +6,22 @@ A simple ajax request handler plugin in JavaScript. Requires jQuery.
 The Handler
 --------
 
-      var result = requestHandler.doRequest(typeOfRequest, params, url, async, traditional);
+      var result = requestHandler.get(params, url, async, traditional);
+	  
+	  and
+	  
+	  var result = requestHandler.post(params, url, async, traditional);
 
 Example of use
 --------
 
 ### Get example
 
-      var res = requestHandler.doRequest(TypeOfRequest.Get, { id: $('#id').val() }, '/Controller/GetName');
+      var res = requestHandler.get({ id: $('#id').val() }, '/Controller/GetName');
 
 ### Post example
 
-      var res = requestHandler.doRequest(TypeOfRequest.Post, {id: $('#id').val(), name: $('#nameInput').val() }, 
+      var res = requestHandler.post({id: $('#id').val(), name: $('#nameInput').val() }, 
             '/Controller/SetName');
 
 
