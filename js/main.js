@@ -2,7 +2,7 @@ var Main = function () {
     $(function () {
 		
 			// Get IP from jsontest.com
-			var res = requestHandler.doRequest(TypeOfRequest.Get, undefined, 'http://ip.jsontest.com/');
+			var res = requestHandler.get(undefined, 'http://ip.jsontest.com/');
 			if(res) {
 				var percent = 13;
 				$('.progress-bar').css('width', percent + '%');

@@ -27,16 +27,17 @@
 			
 				<h2>Post</h2>
 				<p>
-					<pre>var res = requestHandler.doRequest(TypeOfRequest.Post, // Post
-	{id: $('#id').val(), name: $('#nameInput').val() }, // Parameters
+					<pre>var res = requestHandler.post(
+  {id: $('#id').val(), name: $('#nameInput').val() }, // Parameters
 	'/Controller/SetName'); // Action</pre>
 				</p>
 				
 				<h2>Get</h2>
 				<p>
-					<pre>var res = requestHandler.doRequest(TypeOfRequest.Get, // Get
+					<pre>var res = requestHandler.get(
 	{id: $('#id').val() }, // Parameters
-	'/Controller/GetName'); // Action</pre>
+	'/Controller/GetName'); // Action
+          </pre>
 				</p>
 				
 				<p>
@@ -44,10 +45,10 @@
 				</p>
 				<h2>Example get from jsontest.com</h2>
 				<p>
-					<pre>var res = requestHandler.doRequest(TypeOfRequest.Get, // Get
-	undefined, // No parameters
-	'http://ip.jsontest.com/'); // Action</pre>
-					</pre>
+					<pre>var res = requestHandler.get(
+	undefined, // No parameters.
+	'http://ip.jsontest.com/'); // Action
+          </pre>
 				</p>
 				<label id="ipJsonLabel">Getting IP</label>
 				<div id="ipJsonRes">
