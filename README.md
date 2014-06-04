@@ -2,6 +2,7 @@ SimpleRequestHandler
 ====================
 
 A simple ajax request handler plugin in JavaScript. Requires jQuery.
+Check out the [Demo](http://icytin.github.io/SimpleRequestHandler/)
 
 The Handler
 --------
