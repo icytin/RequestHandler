@@ -30,4 +30,4 @@ Example of use
       
        
 ********
-_Feel free to make this plugin better._ 
+_Please help to make this plugin better._ 
