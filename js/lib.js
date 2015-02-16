@@ -15,7 +15,7 @@ var requestHandler = function () {
     * # successFuntion: An optional callback function to be triggered on success. 
     *
     * Example (MVC):
-    * var response = requestHandler.doRequest(TypeOfRequest.Post, { id: $(this).val() }, '@Url.Action("GetInformation", "Controller")')
+    * var response = requestHandler.post({ id: $(this).val() }, '@Url.Action("GetInformation", "Controller")')
     */
     var _doRequest = function (typeOfRequest, params, url, async, traditional, successFunction) {
 
