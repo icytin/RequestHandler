@@ -32,7 +32,7 @@ var requestHandler = function () {
             data: params,
             success: function (data) {
                 o = data;
-                if (successFunction !== undefined) {
+                if (successFunction) {
                     successFunction(data);
                 }
             },
