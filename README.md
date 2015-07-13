@@ -1,4 +1,4 @@
-SimpleRequestHandler
+RequestHandler
 ====================
 
 A simple ajax request handler plugin in JavaScript. Requires jQuery.
