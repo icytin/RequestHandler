@@ -7,11 +7,7 @@ Check out the [Demo](http://icytin.github.io/SimpleRequestHandler/)
 The Handler
 --------
     
-    var result = requestHandler.get(params, url, async, traditional);
-    
-    // and
-
-    var result = requestHandler.post(params, url, async, traditional);
+    var result = requestHandler.getOrPost(params, url, async, traditional, successCallback);
 
 Example of use
 --------
