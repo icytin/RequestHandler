@@ -20,6 +20,10 @@ Example of use
 
       var res = requestHandler.post({id: $('#id').val(), name: $('#nameInput').val() }, 
             '/Controller/SetName');
+            
+### Async Get example
+
+    requestHandler.get({ id: $('#id').val() }, '/Controller/GetName', true);
 
 ### Async Get example with a success callback function
 
