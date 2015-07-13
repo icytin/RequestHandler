@@ -12,16 +12,16 @@ The Handler
 Example of use
 --------
 
-### Get example
+### Sync Get example
 
       var res = requestHandler.get({ id: $('#id').val() }, '/Controller/GetName');
 
-### Post example
+### Sync Post example
 
       var res = requestHandler.post({id: $('#id').val(), name: $('#nameInput').val() }, 
             '/Controller/SetName');
 
-### Get example with a success callback function
+### Async Get example with a success callback function
 
     requestHandler.get(
         undefined, // No parameters.
