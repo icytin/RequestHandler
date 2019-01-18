@@ -16,6 +16,9 @@ var requestHandler = function () {
     *
     * Example (MVC):
     * var response = requestHandler.post({ id: $(this).val() }, '@Url.Action("GetInformation", "Controller")')
+    * 
+    * Created by: icytin
+    * Source: https://github.com/icytin/RequestHandler
     */
     var _doRequest = function (typeOfRequest, params, url, async, traditional, successFunction) {
 
